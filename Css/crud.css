@@ -1,0 +1,82 @@
+main {
+
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(112deg, beige, #000000);
+    color: rgb(248, 246, 246);
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+
+.form  .form-control{
+    background :linear-gradient(120deg , rgb(21, 20, 20) , rgb(202, 212, 184));
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+p {
+    font-size: 35px ;
+    font-weight: 400;
+    color: rgb(247, 248, 246);
+    
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    color: black;
+    background :linear-gradient(120deg , rgb(21, 20, 20) , rgb(202, 212, 184));
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(5, 5, 5);
+    color: aliceblue;
+
+}
+
+
+span{
+    color: #373737;
+    font-size: larger;
+}
+
+h3 {
+    color: #493be3;
+    font-size: large;
+}
+
+
+@media (max-width: 1200px) {
+    p {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .form {
+        width: 90%;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    p {
+        font-size: 18px;
+    }
+}
